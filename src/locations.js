@@ -56,8 +56,10 @@ export const LocationCreate = (props) => (
       <TextInput source="location" />
       <TextInput source="description" />
       <BooleanInput label="Beach" source="beach" />
+      <BooleanInput label="Historical" source="historical" />
+      <BooleanInput label="Gardens" source="gardens" />
+      <BooleanInput label="Trails" source="trails" />
       <BooleanInput label="Cafe" source="cafe" />
-      <BooleanInput label="Attractions" source="attractions" />
     </SimpleForm>
   </Create>
 );
@@ -69,8 +71,10 @@ export const LocationEdit = (props) => (
       <TextInput source="location" />
       <TextInput source="description" />
       <BooleanInput label="Beach" source="beach" />
+      <BooleanInput label="Historical" source="historical" />
+      <BooleanInput label="Gardens" source="gardens" />
+      <BooleanInput label="Trails" source="trails" />
       <BooleanInput label="Cafe" source="cafe" />
-      <BooleanInput label="Attractions" source="attractions" />
     </SimpleForm>
   </Edit>
 );
