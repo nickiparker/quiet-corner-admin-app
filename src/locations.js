@@ -18,7 +18,8 @@ import {
   DeleteButton,
   RichTextField,
   SelectInput,
-  BooleanInput
+  BooleanInput,
+  BooleanField
 } from "react-admin";
 import RichTextInput from "ra-input-rich-text";
 
@@ -46,6 +47,11 @@ export const LocationShow = (props) => (
       <TextField source="id" />
       <TextField source="location" />
       <TextField source="description" />
+      <BooleanField source="beach" />
+      <BooleanField source="historical" />
+      <BooleanField source="gardens" />
+      <BooleanField source="trails" />
+      <BooleanField source="cafe" />
     </SimpleShowLayout>
   </Show>
 );
