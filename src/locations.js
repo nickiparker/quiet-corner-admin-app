@@ -70,11 +70,11 @@ export const LocationEdit = (props) => (
       <DisabledInput source="id" />
       <TextInput source="location" />
       <TextInput source="description" />
-      <BooleanInput label="Beach" source="beach" />
-      <BooleanInput label="Historical" source="historical" />
-      <BooleanInput label="Gardens" source="gardens" />
-      <BooleanInput label="Trails" source="trails" />
-      <BooleanInput label="Cafe" source="cafe" />
+      <BooleanInput label="Beach" source="beach" defaultValue={false}/>
+      <BooleanInput label="Historical" source="historical" defaultValue={false}/>
+      <BooleanInput label="Gardens" source="gardens" defaultValue={false}/>
+      <BooleanInput label="Trails" source="trails" defaultValue={false}/>
+      <BooleanInput label="Cafe" source="cafe" defaultValue={false}/>
     </SimpleForm>
   </Edit>
 );
