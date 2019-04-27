@@ -47,6 +47,8 @@ export const LocationShow = (props) => (
       <TextField source="id" />
       <TextField source="location" />
       <TextField source="description" />
+      <TextField source="latitude" />
+      <TextField source="longitude" />
       <BooleanField source="beach" />
       <BooleanField source="historical" />
       <BooleanField source="gardens" />
@@ -61,6 +63,8 @@ export const LocationCreate = (props) => (
     <SimpleForm>
       <TextInput source="location" />
       <TextInput source="description" />
+      <TextInput source="latitude" />
+      <TextInput source="longitude" />
       <BooleanInput label="Beach" source="beach" defaultValue={false} />
       <BooleanInput label="Historical" source="historical" defaultValue={false} />
       <BooleanInput label="Gardens" source="gardens" defaultValue={false} />
@@ -76,6 +80,8 @@ export const LocationEdit = (props) => (
       <DisabledInput source="id" />
       <TextInput source="location" />
       <TextInput source="description" />
+      <TextInput source="latitude" />
+      <TextInput source="longitude" />
       <BooleanInput label="Beach" source="beach" defaultValue={false}/>
       <BooleanInput label="Historical" source="historical" defaultValue={false}/>
       <BooleanInput label="Gardens" source="gardens" defaultValue={false}/>
